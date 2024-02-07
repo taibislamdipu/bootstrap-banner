@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Bootstrap Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style>
+      .banner {
+        background: url("./assets/banner.png") center/cover no-repeat; /* Replace 'your-background-image.jpg' with your actual image */
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 100px;
+        color: white;
+      }
+
+      .banner-content {
+        max-width: 500px;
+      }
+
+      @media (max-width: 768px) {
+        .banner {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="banner-content">
+        <h1 class="mb-4 display-2">Shoot more Work less</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem
+          ratione, cupiditate voluptatem incidunt a dolore quam nobis magni
+          accusantium!
+        </p>
+        <button class="btn btn-primary mb-2">30 DAY FREE TRIAL</button>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
