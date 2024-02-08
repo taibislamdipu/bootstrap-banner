@@ -1,0 +1,19 @@
+body {
+  max-width: 3000px;
+  margin: auto !important;
+}
+
+.banner {
+  background: url("./assets/banner.png") center/cover no-repeat;
+  padding: 100px;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 20px;
+  }
+}
